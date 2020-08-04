@@ -7,7 +7,7 @@
 - Cors
 
 
-# Funcinalidades
+# Funcionalidades
 
 ## Conexões
 

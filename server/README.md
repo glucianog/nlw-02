@@ -1,4 +1,4 @@
-# Tecnologias
+# Technologies
 
 - Typescript
 - Express
@@ -7,18 +7,18 @@
 - Cors
 
 
-# Funcionalidades
+# Functionalities
 
-## Conexões
+## Connection
 
-- Listar total de conexões realizadas
-- Criar nova conexão
+- List the total of connections created
+- Create a new connection
 
-## Aulas
+## Classes
 
-- Criar uma aula
-- Listar aulas
-  - Filtros: 
-    - matéria
-    - dia da semana
-    - horário
+- Create a class
+- List classes
+  - Filters: 
+    - subject
+    - week day
+    - class schedule

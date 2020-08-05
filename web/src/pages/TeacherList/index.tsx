@@ -1,18 +1,47 @@
 import React from 'react';
 
 import PageHeader from '../../components/PageHeader';
-
-import './styles.css';
 import TeacherItem from '../../components/TeacherItem';
 import Input from '../../components/Input';
+import Select from '../../components/Select';
+
+import './styles.css';
 
 function TeacherList() {
   return( 
     <div id="page-teacher-list" className="container"> 
       <PageHeader title="Estes são os proffys disponíveis.">
         <form id="search-teachers">
-          <Input name="subject" label="Matéria"/>
-          <Input name="week-day" label="Dia da semana"/>
+          <Select 
+            name="subject"
+            label="Matéria"
+            options={[
+              { value: 'Português', label: 'Português' },
+              { value: 'Inglês', label: 'Inglês' },
+              { value: 'Espanhol', label: 'Espanhol' },
+              { value: 'Matemática', label: 'Matemática' },
+              { value: 'História', label: 'História' },
+              { value: 'Geografia', label: 'Geografia' },
+              { value: 'Educação Física', label: 'Educação Física' },
+              { value: 'Biologia', label: 'Biologia' },
+              { value: 'Química', label: 'Química' },
+              { value: 'Física', label: 'Física' },
+              { value: 'Laboratórios Especiais', label: 'Laboratórios Especiais' },
+            ]}
+          />
+
+          <Select 
+            name="week-day"
+            label="Dia da semana"
+            options={[
+              { value: '1', label: 'Segunda-feira' },
+              { value: '2', label: 'Terça-feira' },
+              { value: '3', label: 'Quarta-feira' },
+              { value: '4', label: 'Quinta-feira' },
+              { value: '5', label: 'Sexta-feira' },
+              { value: '6', label: 'Sábado' },
+            ]}
+          />
           <Input type="time" name="time" label="time"/>
         </form>
       </PageHeader>

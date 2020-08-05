@@ -1,6 +1,7 @@
 # Technologies
 
 - Typescript
+- Node
 - Express
 - SQLite
 - Knex

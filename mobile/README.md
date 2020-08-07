@@ -4,6 +4,10 @@
 - React Native
 - Expo
 - React Navigation
+- Axios
+- AsyncStorage
+- Hooks
+- Custom Hooks
 
 
 # Assets
